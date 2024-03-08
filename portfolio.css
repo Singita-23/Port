@@ -1,0 +1,179 @@
+body {
+  background-color: lightcyan;
+  color: black;
+}
+section {
+  padding-top: 4vh;
+  height: 50vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+.section-container {
+  display: flex;
+}
+#profile {
+  display: flex;
+}
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 18vh;
+}
+.the-pic {
+  border: grey 2px solid;
+  border-radius: 40px;
+
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  display: flex;
+}
+.S-img-container {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 4rem 4rem;
+  padding-left: 2rem;
+}
+.section_text {
+  align-self: center;
+  text-align: center;
+}
+.section_text p {
+  font-weight: 600;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  border-radius: 50%;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  font-weight: 400;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: grey 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+.btn-color-1,
+.btn-color-2:hover {
+  background: black;
+  color: azure;
+}
+
+.btn-color-1:hover {
+  background: black;
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+}
+#mainNavbar .navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background: black;
+  transition: background 500ms;
+}
+.navbar-toggler {
+  color: white;
+  background-color: black;
+}
+.section-skills {
+  border: grey 2px solid;
+  border-radius: 2rem;
+  justify-content: center;
+  display: flex;
+  height: 35vh;
+  margin: 5rem 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+.about-container {
+  justify-content: center;
+  display: flex;
+  height: 20vh;
+  border: grey 2px solid;
+  border-radius: 2rem;
+}
+.section-contact {
+  justify-content: center;
+  display: flex;
+  height: 15vh;
+  margin: 5rem 10rem;
+  border: grey 2px solid;
+  border-radius: 2rem;
+
+  min-height: fit-content;
+}
+.section-mail {
+  border: grey 2px solid;
+  border-radius: 2rem;
+  justify-content: center;
+  display: flex;
+  height: 22vh;
+  margin: 5rem 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+  text-align: center;
+}
+
+.section-in {
+  border: grey 2px solid;
+  border-radius: 2rem;
+  justify-content: center;
+  display: flex;
+  height: 15vh;
+  margin: 5rem 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-git {
+  border: grey 2px solid;
+  border-radius: 2rem;
+  justify-content: center;
+  display: flex;
+  height: 15vh;
+  margin: 5rem 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+.p-email {
+  text-align: center;
+}

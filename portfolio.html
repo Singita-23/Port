@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Dosis" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Porfolio</title>
+  </head>
+  <body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md">
+      <a href="#" class="navbar-brand">Singita Rikhotso</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="navLinks"
+        arai-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navLinks"
+      
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link" >About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link" >Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link" >Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link" >Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="Profile">
+      <div class="S-img-container">
+        <img src="Singita.jpg" alt="Profile Picture" class="the-pic" />
+     
+
+      <div class="section_text">
+        <p class="section_text_p1">Hello I am</p>
+        <h1 class="title">Singita Rikhotso</h1>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:766ac439-8707-415c-ad63-4d2e2ad52b8e')"
+          >
+            Cv
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='Contact Information.docx'">
+            Contact Information
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAY1BMVEX///8AAADh4eGNjY10dHRPT0/u7u7Ly8usrKympqbU1NTAwMAnJyf7+/uamprq6upBQUFJSUn19fWHh4e4uLgyMjJ6enoXFxdqamrb29tVVVULCwtvb28sLCwdHR1dXV05OTmPTDD2AAAEGUlEQVR4nO2da4+qMBCGLUi5yf0mq6L//1ceMatHygJ7TjpTMO+T/bAxZM2T0ultOrvbAQAAAAAAAAAAAAAAAAAAAADAX2QQerFd1Pv/p+55/FLYsRcG0oxJEF+zW3VoTkITp+ZQ3bJr3LJqRPcfP+20WShOh9SPOG38jkbkScelE0VuSqvSk7osOjKmV+mJyWNBtEtqHhch6oTaJjlzuQhxJrZJ9nwuQuxJbaKC00WIgjIK+A2vTOPTuQQZr4sQWUDlwv2S9ZC9aCXzS9bTlDQu0kDD3JuGZux0LyZkLi6FS+SbcBGCZM6ZHM3IHClGzvZgRuZAsVgLzbgIEep3MdVlSDpNbiQw9xS5dhlpqP/fI4D+kUY6pmQy/TLJbfYbq8xxMppRtdIfm5O5DZm0CK08t8p9RSDTEMjMfF39mnKEVwIbVpn6LdxYBHFCv4w1+V3OoIMSLOA4W0aZ1nraZSztMpMtc1bGtPZrwzKeMtuI7A3LjLYctE/iTMpo7zSMMqNl7ZZbRt0+2XSfqZVoZmmfBDDKnIbL2qjUfjzIKCOOg+cS7cMMq4yo3x7LCc48WGXE/jVuSopZM6+MuHiPKCC1BzITMneaLKPaV+eXIQQykIHMJ8mk58K2i/1v5wqcMnU84Lk9Uw0+rV8HIufQSmR+RyaW+6sNbE4ZNxrwXJs5cvf3w913JtQpTgar7Ej6y/NSVpnhg28ybwS9zEldLvTIxcyiVcqkP2Uo3BuqXMhfW6OMM3loFMxPT1cn41bHmTOj+b221cmE86lw7twkdXUy1sKG8Vyu5OpkFpmJ0NuTmdlt255M/kkyM71mgzLTB0BrlZFWGNu2F8jxADp9Nr9Omfx1fnvwR6E6n9zaWaVM8j7hvwY7pXXKTckMk9W/1NQrd0syariylclasCGZUYpHp6wItiQzHkeUo90tyYyTHZR154ZkrHFW1HX4xIZkfsiKTodjzYZkwnHyLWQgAxnIQAYykIEMZCADmSWZDDKQgQxkIAOZJ/98GUifzApuNkGGS2Yyh0LZzH/JDHeS3R9khrrtxN/vCGQm75MW/oDnkVIVv3/q1eNLq8Mn/KljwJt+Gclec+bJF8FF7U+6df5R9QA+qlKDuRoaFIVnWiM1dIS4UFQ34aw5986epL6R/hvYv8KjcNm5FGUYFqlIajXNZOpQouZx6CI0EAIuBPWAHui/6LuMTVbiMGCvPeOQ1QS8BzTiAroqHU0o+4b5RaN7yXp46wLWxLV0l2+7bMeFcylAMPUfETFNa9SqKURY+q/8jxilo9JRpqTFTpuUqK7pD/TV58trSjTmdOm15Kw+/6D166OTVgdtbXTqqtQ51j7v/wV4IVu39Pw4tjUQx75Xui1DBAMAAAAAAAAAAAAAAAAAAADg0/kDXOldcDqYiPQAAAAASUVORK5CYII="
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/singita-rikhotso-5b145829b/'"
+          />
+          <img
+            src="data:image/png;base64,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"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/Singita-23'"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="about-container">
+   
+      <div >
+        <h2>About Me</h2>
+        <p>
+          I am an aspiring full-stack developer. I aim to master web development.
+          I want to  become a professional developer.
+        </p>
+      </div>
+   </p></section>
+    <section class="section-skills">
+      <div >
+        <h2>Skills</h2>
+        <img src="tick icon.png" alt="" class="icon">
+        <h4>Html</h4>
+        <img src="tick icon.png" alt="" class="icon">
+        <h4>Css</h4>
+        <img src="tick icon.png" alt="" class="icon">
+        <h4>Javascript</h4>
+      </div></section>
+   <section class="section-contact">
+
+      <p><div><h2>Contact</h2>
+        
+        </p></section>
+     
+     <section class="section-mail">
+    
+        <p class="p-email"><div><h3>Email address</h3></p>
+          <div><img src="emailicon.jpeg" alt="" class="icon"></div>
+         <p><div>
+    <h4>singita.rikhotso@icloud.com</h4></p></div>
+  </div></section>
+    <section class="section-in">
+    <h3>LinkedIn</h3>
+    <img src="linkedin.jpg" alt=""  onclick="location.href='https://www.linkedin.com/in/singita-rikhotso-5b145829b/'" class="icon">
+  </section>
+    
+    <section class="section-git">
+    <h3>Github</h3>
+    <img src="github.jpg" alt="" onclick="location.href='https://github.com/Singita-23'" class="icon">
+   
+
+   
+  </body>
+</html>
