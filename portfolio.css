@@ -177,3 +177,21 @@ section {
 .p-email {
   text-align: center;
 }
+.about-container {
+  overflow: hidden;
+  overflow: scroll;
+  word-wrap: break-word;
+}
+
+.section-skills {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 80%;
+}
+.section-mail {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0;
+}
